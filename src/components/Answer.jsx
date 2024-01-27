@@ -14,7 +14,7 @@ function Answer({ answers }) {
   };
 
   return (
-    <div className="h-screen sm:w-[700px] sm:mx-auto">
+    <div className="sm:w-[700px] sm:mx-auto">
       <h1 className="text-center font-semibold text-lg">
         {selectedAnswer.AnswerName}
       </h1>
